@@ -1,0 +1,69 @@
+.player-card {
+  width: 20rem;
+  background-color: #f1f4f9;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.range {
+  width: 100%;
+  height: 5px;
+  accent-color: #436ee6;
+  outline: none;
+}
+
+.track-duration {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.track-duration > p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #18181f;
+  margin: 0;
+}
+
+.playbutton {
+  width: 3rem;
+  height: 3rem;
+  font-size: 34px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #436ee6;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px auto 10px auto;
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-size: 45px; /* Adjust the size if needed */
+}
+
+.controls {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .player-card {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+}
